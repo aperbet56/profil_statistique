@@ -1,0 +1,93 @@
+/**** Reset ****/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Site général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 15px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stats__container {
+    margin: 20px;
+    border: dashed #170080;
+    border-radius: 15px;
+    width: 340px;
+    height: 200px;
+    position: relative;
+    padding: 20px;
+}
+  
+.stats__container h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+  
+.icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000000;
+}
+  
+.counter {
+    font-size: 50px;
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #134ae2;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 15px;
+}
+
+footer span {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
